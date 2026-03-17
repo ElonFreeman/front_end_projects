@@ -1,0 +1,12 @@
+server {
+    listen 8080;
+    listen [::]:8080;
+    
+
+    root /home/raspi/8964_web; # 指向你刚创建的网站目录
+    index index.html index.htm;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
