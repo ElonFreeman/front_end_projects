@@ -2,8 +2,11 @@ background{
 
 }
 
+.container {
+    text-align: center;
+}
 h1{
-    font-size: 6em;
+    font-size: 4em;
     text-align: center;
     color: #9900ff;
 }
@@ -18,4 +21,8 @@ p{
     text-align: center;
     font-size: 1.5em;
     color: black;
+}
+img{
+    width: 30%;
+    height: auto;
 }
