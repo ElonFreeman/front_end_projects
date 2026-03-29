@@ -1,28 +1,41 @@
-background{
+/*设置背景样式*/
+div{
+    background-color: rgb(110, 199, 255);
+    /*background-image: url("pics/0227/IMG_20260227_083509.jpg");
+    background-attachmnt: fixed;
+    background-size: cover;*/
 
 }
 
+/*设置图片居中*/
 .container {
     text-align: center;
 }
+
 h1{
+    background:rgb(110, 199, 255);
     font-size: 4em;
     text-align: center;
-    color: #9900ff;
+    color: rgb(102, 0, 255);
 }
+
 h3{
+
     font-family: Avenir, Helvetica, Arial, sans-serif;
     text-align: center;
     font-size: 2em;
-    color: #00b7ff;
+    color: rgb(95, 212, 255);
 }
+
 p{
     font-family: Avenir, Helvetica, Arial, sans-serif;
     text-align: center;
     font-size: 1.5em;
     color: black;
 }
+
+/*设置图片宽度比例，高度自适应*/
 img{
-    width: 30%;
+    width: 40%;
     height: auto;
 }
