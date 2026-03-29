@@ -1,0 +1,21 @@
+background{
+
+}
+
+h1{
+    font-size: 6em;
+    text-align: center;
+    color: #9900ff;
+}
+h3{
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    color: #00b7ff;
+}
+p{
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+}
